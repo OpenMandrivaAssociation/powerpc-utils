@@ -14,6 +14,7 @@ Group:		System/Configuration/Hardware
 Url:		http://powerpc-utils.ozlabs.org/
 ExclusiveArch:	ppc ppc64
 Requires:	bc
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The powerpc-utils package provides the utilities listed below which
