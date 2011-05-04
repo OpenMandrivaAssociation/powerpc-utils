@@ -1,6 +1,6 @@
 %define name	powerpc-utils
 %define version	0.0.1
-%define release %mkrel 4
+%define release %mkrel 5
 
 Summary:	Maintenance utilities for PowerPC platforms
 Name:		%{name}
