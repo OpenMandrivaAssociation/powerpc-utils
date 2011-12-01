@@ -34,18 +34,18 @@ are intended for the maintenance of PowerPC platforms.
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %makeinstall_std
-rm -rf $RPM_BUILD_ROOT%{_datadir}/doc
+rm -rf %{buildroot}%{_datadir}/doc
 
 %ifarch ppc64
 # "ofpath" is obsolete but still provide compatible replacement
-ln -s ofpathname $RPM_BUILD_ROOT%{_sbindir}/ofpath
+ln -s ofpathname %{buildroot}%{_sbindir}/ofpath
 %endif
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
