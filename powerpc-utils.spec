@@ -11,7 +11,7 @@ Patch0:		powerpc-utils-0.0.1-ofpathname-devfs.patch.bz2
 Patch1:		powerpc-utils-0.0.1-emulate-ofpath.patch.bz2
 License:	IBM Common Public License
 Group:		System/Configuration/Hardware
-Url:		http://powerpc-utils.ozlabs.org/
+Url:		https://powerpc-utils.ozlabs.org/
 ExclusiveArch:	ppc ppc64
 Requires:	bc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
