@@ -16,6 +16,7 @@ ExclusiveArch:	ppc ppc64
 Requires:	bc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 %description
 The powerpc-utils package provides the utilities listed below which
 are intended for the maintenance of PowerPC platforms.
